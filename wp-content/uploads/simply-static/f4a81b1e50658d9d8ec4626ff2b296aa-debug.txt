@@ -1,0 +1,93 @@
+[2024-05-16 07:29:04] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-05-16 07:29:04] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, transfer_files_locally, wrapup
+[2024-05-16 07:29:04] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-05-16 07:29:09] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-05-16 07:29:09] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-05-16 07:29:09] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-05-16 07:29:09] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\Event_Management/wp-content/uploads\simply-static\temp-files/simply-static-1-1715844544\
+[2024-05-16 07:29:09] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/Event_Management/
+[2024-05-16 07:29:10] [class-ss-setup-task.php:145] Adding files from directory: C:\xampp\htdocs\Event_Management\wp-content\uploads
+[2024-05-16 07:29:10] [class-ss-setup-task.php:150] Adding file C:\xampp\htdocs\Event_Management\wp-content\uploads\simply-static\f4a81b1e50658d9d8ec4626ff2b296aa-debug.txt to queue as: C:/xampp/htdocs/Event_Management/wp-content/uploads/simply-static/f4a81b1e50658d9d8ec4626ff2b296aa-debug.txt
+[2024-05-16 07:29:10] [class-ss-setup-task.php:137] File C:\xampp\htdocs\Event_Management\wp-content\plugins\simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js exists; adding to queue as: C:/xampp/htdocs/Event_Management/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-05-16 07:29:10] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-05-16 07:29:10] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-05-16 07:29:10] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-05-16 07:29:10] [class-ss-fetch-urls-task.php:69] Total pages: 3; Pages remaining: 3
+[2024-05-16 07:29:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Event_Management/
+[2024-05-16 07:29:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 3
+[2024-05-16 07:29:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-16 07:29:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\qhuza\AppData\Local\Temp/6645b5c688680-hHNsMx.tmp
+[2024-05-16 07:29:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Event_Management/?simply_static_page=1
+[2024-05-16 07:29:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Event_Management/?simply_static_page=1
+[2024-05-16 07:29:16] [class-ss-url-fetcher.php:103] Filesize: 87554 bytes
+[2024-05-16 07:29:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-05-16 07:29:16] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-05-16 07:29:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\qhuza\AppData\Local\Temp/6645b5c688680-hHNsMx.tmp to C:\xampp\htdocs\Event_Management/wp-content/uploads\simply-static\temp-files/simply-static-1-1715844544/index.html
+[2024-05-16 07:29:16] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-16 07:29:23] [class-ss-fetch-urls-task.php:158] Adding 20 URLs to the queue
+[2024-05-16 07:29:26] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-16 07:29:33] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: HIJ8ã4šb³p/c8Xxöjšét
+[2024-05-16 07:29:33] [class-ss-page.php:125] Checking Content Identical:48494a38e3349a62b3702f63385878f66a9ae974===. Value: TRUE
+[2024-05-16 07:29:33] [class-ss-fetch-urls-task.php:72] URL: C:/xampp/htdocs/Event_Management/wp-content/uploads/simply-static/f4a81b1e50658d9d8ec4626ff2b296aa-debug.txt
+[2024-05-16 07:29:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 3
+[2024-05-16 07:29:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-16 07:29:33] [class-ss-url-fetcher.php:83] Not fetching URL because it is not a local URL
+[2024-05-16 07:29:33] [class-ss-fetch-urls-task.php:72] URL: C:/xampp/htdocs/Event_Management/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-05-16 07:29:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 3
+[2024-05-16 07:29:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-16 07:29:33] [class-ss-url-fetcher.php:83] Not fetching URL because it is not a local URL
+[2024-05-16 07:29:33] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 3 pages/files
+[2024-05-16 07:29:33] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-05-16 07:29:54] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-05-16 07:29:54] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-05-16 07:29:54] [class-ss-fetch-urls-task.php:69] Total pages: 23; Pages remaining: 20
+[2024-05-16 07:29:54] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Event_Management
+[2024-05-16 07:29:54] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 23
+[2024-05-16 07:29:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-16 07:29:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\qhuza\AppData\Local\Temp/6645b5f3511fc-mUeV3k.tmp
+[2024-05-16 07:29:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Event_Management?simply_static_page=4
+[2024-05-16 07:29:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Event_Management?simply_static_page=4
+[2024-05-16 07:29:58] [class-ss-url-fetcher.php:103] Filesize: 363 bytes
+[2024-05-16 07:29:58] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2024-05-16 07:29:58] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-05-16 07:30:02] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/Event_Management/
+[2024-05-16 07:30:02] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-05-16 07:30:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Event_Management/index.php/sample-page/
+[2024-05-16 07:30:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 23
+[2024-05-16 07:30:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-16 07:30:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\qhuza\AppData\Local\Temp/6645b5fbba46a-xENR7j.tmp
+[2024-05-16 07:30:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Event_Management/index.php/sample-page/?simply_static_page=5
+[2024-05-16 07:30:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Event_Management/index.php/sample-page/?simply_static_page=5
+[2024-05-16 07:30:33] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-05-16 07:30:33] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30017 milliseconds with 0 bytes received
+[2024-05-16 07:30:33] [class-ss-url-fetcher.php:107] object(WP_Error)#816 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30017 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2024-05-16 07:30:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Event_Management/index.php/2024/05/16/hello-world/
+[2024-05-16 07:30:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 23
+[2024-05-16 07:30:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-16 07:30:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\qhuza\AppData\Local\Temp/6645b61a2135d-2cGgTn.tmp
+[2024-05-16 07:30:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Event_Management/index.php/2024/05/16/hello-world/?simply_static_page=6
+[2024-05-16 07:30:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Event_Management/index.php/2024/05/16/hello-world/?simply_static_page=6
+[2024-05-16 07:31:04] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-05-16 07:31:04] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30003 milliseconds with 0 bytes received
+[2024-05-16 07:31:04] [class-ss-url-fetcher.php:107] object(WP_Error)#851 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30003 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2024-05-16 07:31:04] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Event_Management/index.php/author/web3/
+[2024-05-16 07:31:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 23
+[2024-05-16 07:31:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-16 07:31:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\qhuza\AppData\Local\Temp/6645b638c4de7-9iHNuU.tmp
+[2024-05-16 07:31:04] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Event_Management/index.php/author/web3/?simply_static_page=7
+[2024-05-16 07:31:04] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Event_Management/index.php/author/web3/?simply_static_page=7
+[2024-05-16 07:31:34] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-05-16 07:31:34] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30000 milliseconds with 0 bytes received
+[2024-05-16 07:31:34] [class-ss-url-fetcher.php:107] object(WP_Error)#854 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30000 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2024-05-16 07:31:37] [class-ss-archive-creation-job.php:221] Cancelling job; job is not done
+[2024-05-16 07:31:37] [class-ss-archive-creation-job.php:232] The queue isn't empty; overwriting current task with a cancel task
+[2024-05-16 07:31:44] [class-ss-archive-creation-job.php:384] Error: (1) Maximum execution time of 120 seconds exceeded in <b>C:\xampp\htdocs\Event_Management\wp-includes\class-wpdb.php</b> on line <b>2349</b>
+[2024-05-16 07:31:44] [class-ss-archive-creation-job.php:324] Status message: [error] Error: (1) Maximum execution time of 120 seconds exceeded in <b>C:\xampp\htdocs\Event_Management\wp-includes\class-wpdb.php</b> on line <b>2349</b>
+[2024-05-16 07:32:24] [class-ss-archive-creation-job.php:136] Current task: cancel
+[2024-05-16 07:32:24] [class-ss-archive-creation-job.php:153] Performing task: cancel
+[2024-05-16 07:32:24] [class-ss-task.php:44] Status message: [cancel] Cancelling job
+[2024-05-16 07:32:25] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-05-16 07:32:25] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-05-16 07:32:25] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
+[2024-05-16 07:32:26] [class-ss-archive-creation-job.php:197] Completing the job
+[2024-05-16 07:32:26] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:03:22

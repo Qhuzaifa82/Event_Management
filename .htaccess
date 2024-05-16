@@ -5,3 +5,12 @@
 # Any changes to the directives between these markers will be overwritten.
 
 # END WordPress
+# BEGIN Simply Static
+# The directives (lines) between "BEGIN Simply Static" and "END Simply Static" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<Files "C:\xampp\htdocs\Event_Management/wp-content/uploads\simply-static\f4a81b1e50658d9d8ec4626ff2b296aa-debug.txt">
+require all denied
+require host localhost
+</Files>
+# END Simply Static
